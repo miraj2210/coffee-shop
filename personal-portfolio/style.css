@@ -1,0 +1,253 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.imgs {
+    background-image: url(https://p-gpb8fhd4b9fbh6fy.z01.azurefd.net/cms/7be0c500-1425-4ae4-a32d-24c03fccfee6/4aff5435-1203-4e88-aea6-be51b7952836-lg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+
+
+}
+
+.drop {
+    background-color: lightgray;
+}
+
+.s1 {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 0px 0px;
+    font-size: 80px;
+
+}
+
+.s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+
+    justify-content: center;
+
+
+
+}
+
+header a {
+    color: white;
+    padding: 10px 50px;
+    text-decoration: none;
+
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.a11 {
+    padding: 20px;
+}
+
+.serv {
+    font-size: 50px;
+
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+}
+
+.icon1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.icon1 div {
+    width: 280px;
+
+}
+
+.icon1 i {
+    color: rgb(195, 16, 76);
+    font-size: 30px;
+
+
+
+}
+
+;
+
+
+
+.photo {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainimg {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 10px auto;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.port {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    gap: 20px;
+    font-size: 20px;
+
+}
+
+.port a {
+    text-decoration: none;
+}
+
+.mywork {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mywork img {
+    width: 200px;
+    padding: 10px;
+
+}
+
+.mywork2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mywork2 img {
+    width: 200px;
+    padding: 10px;
+
+}
+
+.head2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backimg-main {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.backimg-main-2 {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.backimg-main-3 {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.backimg {
+    background-image: url(https://mehtawebsolution.com/uploads/blogs/cover_17677931767233432277.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 190px;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.backimg p {
+    position: absolute;
+    margin-top: 190px;
+
+
+}
+
+.backimg span {
+    position: absolute;
+    margin-top: 150px;
+}
+
+.backimg a {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 80px;
+    text-decoration: none;
+    color: black;
+}
+
+.mainblog {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    width: 80%;
+    margin: 10px auto;
+    position: relative;
+    height: 300px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 3px;
+
+
+}
+
+.img3 {
+    background-image: url(https://plus.unsplash.com/premium_photo-1720744786849-a7412d24ffbf?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D);
+    border-radius: 10px;
+}
+
+.img4 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuNxvq4Sno4e66Lq0MiMLZHRqIICrNlQb7h_y4sG21XeEOTWi3gsBjJnA&s=10);
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footmain {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+
+
+
+}
