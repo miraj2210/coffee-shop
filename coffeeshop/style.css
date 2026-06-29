@@ -1,0 +1,289 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+body{
+    background-color:rgb(209, 171, 101);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(246, 200, 115);
+    padding: 10px 10px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav a:hover {
+    color: bisque
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+
+.mainbackround {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/040/171/061/small/ai-generated-coffee-background-image-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 80px;
+    color: bisque;
+
+
+}
+
+.child .fresh {
+    font-size: 40px;
+    margin-left: 20px;
+
+}
+
+.free{
+    padding-left: 10px;
+}
+.child button{
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 20px;
+    margin-left: 20px;
+    background-color: beige;
+}
+
+
+.firstproduct{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.maincard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    background-image: url(https://www.javapresse.com/cdn/shop/articles/JavaPresse_Coffee_Company_00524_x330_1ca72d51-9379-4bdb-98a7-857ac417cf9d.webp?v=1713337102);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:20px;
+
+}
+
+.cards p {
+    color: blanchedalmond;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.cards a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.cards a:hover {
+    color: black;
+}
+
+
+.shakeparent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.shake {
+    background-color: rgb(246, 200, 115);
+    width: 200px;
+    height: 250px;
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+
+}
+
+.shake button {
+    padding: 2px;
+    position: absolute;
+    top: 10px;
+    border-radius: 9px;
+    border: none;
+    width: 90px;
+
+
+
+}
+
+.shake img {
+    height: 100px;
+    width: 90px;
+
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.shake p {
+    padding: 10px 30px;
+    display: flex;
+    text-align: center;
+}
+
+.photo2 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo2 button {
+    position: absolute;
+    left: 70px;
+    width: 90px;
+}
+
+.photo2 p {
+    position: absolute;
+    right: 70px;
+}
+
+.photo3 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo3 button {
+    position: absolute;
+    left: 70px;
+    width: 90px;
+
+}
+
+.photo3 p {
+    position: absolute;
+    right: 90px;
+
+}
+
+.blog {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.blogs {
+    width: 250px;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+border-radius: 15px;
+    background-color: rgb(246, 200, 115);
+
+
+}
+
+.blogs img {
+    height: 150px;
+    width: 170px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.blogs h4 {
+    padding-bottom: 10px;
+
+}
+
+.blogs p {
+    font-size: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(246, 200, 115);
+    width: 100%;
+    padding: 10px;
+}
+
+.footerhead{
+    display: flex;
+    justify-content: space-around;
+}
+.footermain{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.footerdiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.footerdiv a{
+    text-decoration: none;
+    color: black;
+}
+.footerdiv p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.footerlast{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(209, 171, 101);
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+.footerlast a{
+    text-decoration: none;
+    color: black;
+}
